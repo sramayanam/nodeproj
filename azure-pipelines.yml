@@ -1,4 +1,4 @@
-# Node.js with gulp . CICD - all plumbed 12
+# Node.js with gulp . CICD - all plumbed 123
 # Build a Node.js project using the gulp task runner.
 # Add steps that analyze code, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
@@ -23,5 +23,5 @@ steps:
   inputs:
     rootFolderOrFile: '$(System.DefaultWorkingDirectory)'
     includeRootFolder: true
-    archiveFile: '$(System.DefaultWorkingDirectory)/$(Build.BuildId).zip'
+    #archiveFile: '$(System.DefaultWorkingDirectory)/$(Build.BuildId).zip'
     replaceExistingArchive: true
