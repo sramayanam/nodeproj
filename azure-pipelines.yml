@@ -2,7 +2,7 @@
 # Build a Node.js project using the gulp task runner.
 # Add steps that analyze code, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
-# rectified hosted
+# rectified hosted ubuntu
 pool:
   vmImage: 'Ubuntu 16.04'
 
