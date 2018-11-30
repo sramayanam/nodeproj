@@ -17,6 +17,7 @@ steps:
     gulp default --gulpfile gulpfile.js
   displayName: 'npm install and run gulp'
 
-- task: PublishBuildArtifacts@1
+- task: ArchiveFiles@2
   inputs:
-    PathtoPublish: '$(System.DefaultWorkingDirectory)'
+    rootFolderOrFile: '$(System.DefaultWorkingDirectory)'
+    includeRootFolder: false
