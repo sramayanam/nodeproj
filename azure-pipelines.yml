@@ -17,7 +17,9 @@ steps:
     gulp default --gulpfile gulpfile.js
   displayName: 'npm install and run gulp'
 
+ #   rootFolderOrFile: '$(System.DefaultWorkingDirectory)'
+
 - task: ArchiveFiles@2
   inputs:
-    rootFolderOrFile: '$(System.DefaultWorkingDirectory)'
-    includeRootFolder: false
+    rootFolderOrFile: '$(Build.SourcesDirectory)'
+    includeRootFolder: true
