@@ -3,7 +3,7 @@
 # Add steps that analyze code, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
 # rectified hosted ubuntu 1 
-#updated system.workfolder 2
+#updated system.workfolder 2 & changed the release pipeline
 pool:
   vmImage: 'Ubuntu 16.04'
 
