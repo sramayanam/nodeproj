@@ -23,5 +23,5 @@ steps:
   inputs:
     rootFolderOrFile: '$(System.DefaultWorkingDirectory)'
     includeRootFolder: true
-    #archiveFile: '$(System.DefaultWorkingDirectory)/$(Build.BuildId).zip'
+    archiveFile: '$(System.DefaultWorkingDirectory)/$(Build.BuildId).zip'
     replaceExistingArchive: true
